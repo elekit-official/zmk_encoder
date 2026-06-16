@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2026 Your Name
+ * SPDX-License-Identifier: MIT
+ */
+
+/ {
+    behaviors {
+        ec_ms: encoder_mouse_scroll {
+            compatible = "zmk,behavior-encoder-mouse-scroll";
+            #sensor-binding-cells = <2>;
+        };
+    };
+};

@@ -1,0 +1,9 @@
+# Copyright (c) 2026 Your Name
+# SPDX-License-Identifier: MIT
+
+config ZMK_BEHAVIOR_ENCODER_MOUSE_SCROLL
+    bool "Encoder Mouse Scroll behavior"
+    default y
+    depends on ZMK_POINTING
+    help
+      Enables the one-shot encoder mouse scroll behavior.
